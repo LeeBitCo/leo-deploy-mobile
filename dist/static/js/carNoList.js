@@ -1,0 +1,40 @@
+const data = [
+    // numbers: [
+    //     ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
+    //     ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
+    //     ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
+    //     ['Z', 'X', 'C', 'V', 'B', 'N', 'M']
+    // ]
+    { text: '京', value: 1 },
+    { text: '沪', value: 2 },
+    { text: '粤', value: 3 },
+    { text: '津', value: 4 },
+    { text: '冀', value: 5 },
+    { text: '晋', value: 6 },
+    { text: '蒙', value: 7 },
+    { text: '辽', value: 8 },
+    { text: '吉', value: 9 },
+    { text: '黑', value: 10 },
+    { text: '苏', value: 11 },
+    { text: '浙', value: 12 },
+    { text: '皖', value: 13 },
+    { text: '闽', value: 14 },
+    { text: '赣', value: 15 },
+    { text: '鲁', value: 16 },
+    { text: '豫', value: 17 },
+    { text: '鄂', value: 18 },
+    { text: '湘', value: 19 },
+    { text: '桂', value: 20 },
+    { text: '琼', value: 21 },
+    { text: '渝', value: 22 },
+    { text: '川', value: 23 },
+    { text: '贵', value: 24 },
+    { text: '云', value: 25 },
+    { text: '藏', value: 26 },
+    { text: '陕', value: 27 },
+    { text: '甘', value: 28 },
+    { text: '青', value: 29 },
+    { text: '宁', value: 30 },
+    { text: '新', value: 31 }
+]
+export default data;
