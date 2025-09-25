@@ -1,4 +1,34 @@
 {
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ],
+      "has": [
+        {
+          "type": "host",
+          "value": "leo-deploy-mobile-git-main-leo-nobodys-projects.vercel.app"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://yourdomain.com/$1",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "leo-deploy-mobile-git-main-leo-nobodys-projects.vercel.app"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/shouji/:path*",
